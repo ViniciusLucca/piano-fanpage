@@ -52,3 +52,10 @@ a{
 .content:nth-child(even){
     background-color: lightblue;
 }
+
+#presentation > .text{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 8px;
+}
