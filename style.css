@@ -64,6 +64,14 @@ a{
 #presentation > .text{
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    gap: 8px;
+    padding: 40px;
+    gap: 26px;
+    text-align: justify;
+    flex: 2 2 auto;
+}
+div#presentation > img{
+    height: 100%;
+    width: 45vw;
+    object-fit: cover;
+    flex: 1 1 auto;
 }
