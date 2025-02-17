@@ -45,6 +45,9 @@ a{
 }
 .content{
     display: flex;
+    align-items: center;
+    height: 65vh;
+    overflow: hidden;
 }
 .content:nth-child(odd){
     background-color: antiquewhite;
