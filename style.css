@@ -14,13 +14,21 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
+    /* Style purposes */
     padding: 10px 20px;
     background-color: rgb(171, 60, 60);
+    box-shadow: -1px 7px 9px rgba(0, 0, 0, 0.438);
+    
+    /* Child items positioning */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    min-width: min-content;
+    
+    /* Header positioning (stays in the screen when scrolled) */
+    position: sticky;
+    height: 30px;
+    top: 0px;
 }
 header *{
     color: white;
@@ -35,6 +43,7 @@ header *{
     background-color: white;
     border-radius: 5px;
     border: 2px solid black;
+    max-width: 15%;
 }
 ul{
     display: flex;
