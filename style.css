@@ -31,6 +31,11 @@ header *{
     min-width: max-content;
     align-items: center;
 }
+.logo img{
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+}
 ul{
     display: flex;
     flex-direction: row;
