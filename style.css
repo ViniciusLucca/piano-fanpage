@@ -134,3 +134,8 @@ div#presentation > img{
     border-radius: 8px;
     font-size: large;
 }
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
