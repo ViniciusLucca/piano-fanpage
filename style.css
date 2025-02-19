@@ -114,8 +114,23 @@ div#presentation > img{
     object-fit: cover;
 }
 
-.quote cite{
+.big-text, .quote cite{
     text-align: center;
     font-size: xx-large;
     margin: auto;
+}
+
+.listen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.listen a{
+    background-color: rgb(194, 181, 181);
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 8px;
+    font-size: large;
 }
