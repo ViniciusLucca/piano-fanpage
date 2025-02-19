@@ -17,7 +17,7 @@ header{
     /* Style purposes */
     padding: 10px 20px;
     background-color: rgb(171, 60, 60);
-    box-shadow: -1px 7px 9px rgba(0, 0, 0, 0.438);
+    box-shadow: -1px 7px 9px rgba(0, 0, 0, 0.16);
     
     /* Child items positioning */
     display: flex;
