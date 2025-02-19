@@ -113,3 +113,9 @@ div#presentation > img{
     height: 15vw;
     object-fit: cover;
 }
+
+.quote cite{
+    text-align: center;
+    font-size: xx-large;
+    margin: auto;
+}
